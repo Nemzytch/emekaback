@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "saluts",
+  "info": {
+    "name": "salut"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "azefaf": {
+      "type": "string"
+    },
+    "azefazefazef": {
+      "type": "string"
+    }
+  }
+}

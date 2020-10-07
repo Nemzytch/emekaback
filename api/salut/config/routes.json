@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/salut",
+      "handler": "salut.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/salut",
+      "handler": "salut.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/salut",
+      "handler": "salut.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
