@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bonsoirs",
+      "handler": "bonsoir.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bonsoirs/count",
+      "handler": "bonsoir.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bonsoirs/:id",
+      "handler": "bonsoir.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bonsoirs",
+      "handler": "bonsoir.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bonsoirs/:id",
+      "handler": "bonsoir.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bonsoirs/:id",
+      "handler": "bonsoir.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

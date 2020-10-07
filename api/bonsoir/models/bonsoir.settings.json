@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bonsoirs",
+  "info": {
+    "name": "bonsoir"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "salutation": {
+      "type": "string"
+    },
+    "chaussette": {
+      "type": "string"
+    }
+  }
+}
